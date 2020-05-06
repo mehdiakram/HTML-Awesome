@@ -1,0 +1,53 @@
+body{
+	background:#F9C31E;
+}
+.navbar-default .navbar-brand {
+    padding: 0;
+}
+.navbar-brand>img{
+	max-height:150px;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;		
+}
+
+
+
+.nav>li>a {
+    padding: 10px 20px;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;	
+}
+
+.sticky .nav>li>a {
+	padding: 10px 15px;
+}
+.sticky .navbar-brand>img{
+	max-height:100%;
+    transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;		
+}
+
+
+
+#team .team-wrapper,
+#service .col-md-4:hover,
+#service .active,
+#contact
+ {
+    background: #333132;
+
+}
+
+
+.royalleft{
+	float: left;
+}
+.royalright{
+	float: right;
+}
